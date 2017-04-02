@@ -1,0 +1,50 @@
+$spacing: 20px;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1080px;
+	width: calc(100% - 40px);
+	padding: 0 $spacing;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+table {
+	border-spacing: 0;
+	width: 100%;
+	thead {
+		background: #000;
+		color: #fff;
+	}
+	tbody {
+		tr {
+			&:hover {
+				background:#ccc;
+			}
+		}
+	}
+	th, td {
+		padding: $spacing/4 $spacing/2;
+	}
+}
+
+#charts {
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	.chart {
+		width: 50%;
+		height: auto;
+	}
+	canvas {
+	}
+}

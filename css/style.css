@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+table thead {
+  background: #000;
+  color: #fff;
+}
+table tbody tr:hover {
+  background: #ccc;
+}
+table th, table td {
+  padding: 5px 10px;
+}
+
+#charts {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+}
+#charts .chart {
+  width: 50%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
